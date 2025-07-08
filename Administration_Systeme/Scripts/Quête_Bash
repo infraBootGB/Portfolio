@@ -1,0 +1,50 @@
+
+#!/bin/bash
+
+# 1 Placer le dossier qui contient les projets dans une variable d'environement pour éxécution simple
+PATH=$PATH:/home/wilder/
+
+# 2 récupérer le nom du projet choisi par l'utilisateur
+nom_projet_fichiers=$1
+
+# 3 création du dossier  /home/wilder/Projets/SuperScript
+mkdir -p "/home/wilder/Projets/$nom_projet_fichiers"
+
+# 4 afficher Création du dossier /home/wilder/Projets/SuperScript
+echo "Création du dossier /home/wilder/Projets/$nom_projet_fichiers"
+
+# 5 création du fichier README.et affichage et contenu
+touch "/home/wilder/Projets/$nom_projet_fichiers/README.md"
+echo " Initialisation du fichier $nom_projet_fichiers.README.md"
+echo "$nom_projet_fichiers" > "/home/wilder/Projets/$nom_projet_fichiers/README.md"
+
+
+
+
+# 7 création du fichier /home/wilder/Projets/SuperScript/SuperScript.sh et affichage et contenu
+touch "/home/wilder/Projets/$nom_projet_fichiers/$nom_projet_fichiers.sh"
+echo " Initialisation du fichier /home/wilder/Projets/$nom_projet_fichiers"/"$nom_projet_fichiers".sh
+echo "$nom_projet_fichiers" > "/home/wilder/Projets/$nom_projet_fichiers/$nom_projet_fichiers.sh"
+
+
+
+# 9 afficher Projet SuperScript initialisé
+echo "Projet $nom_projet_fichiers initialisé"
+
+
+# 10 afficher les permissions
+chmod +x "/home/wilder/Projets/$nom_projet_fichiers/$nom_projet_fichiers.sh"
+echo "ls -lh /home/wilder/Projets/$nom_projet_fichiers/$nom_projet_fichiers.sh"
+ls -lh Home/Wilder/Projets/$nom_projet_fichiers/$nom_projet_fichiers.sh
+
+
+
+
+# 12 aficher la command cat Projets/SuperScript/SuperScript.sh et retour
+echo "cat Projets/$nom_projet_fichiers/$nom_projet_fichiers.sh"
+cat "/home/wilder/Projets/$nom_projet_fichiers/$nom_projet_fichiers.sh"
+
+#14 aficher la command cat Projets/SuperScript/README.md
+#et renvoyer le résulat à l'écran
+echo "cat Projets/$nom_projet_fichiers/README.md"
+cat "/home/wilder/Projets/$nom_projet_fichiers/README.md"
