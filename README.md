@@ -5,7 +5,7 @@
 
 ### 📋 Sections principales
 
-- Administration_Système
+- Administration Système
 - Active-Directory
 - Scripts
 - Réseau
