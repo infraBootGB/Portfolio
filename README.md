@@ -15,8 +15,8 @@
 
 __Les projets réalisés dans le cadre de la formation sont consultables ici :__
 
-- [The Scripting Project](https://github.com/WildCodeSchool/TSSR-2503-P2-G4-TheScriptingProject)
-- [Build Your Infra](https://github.com/WildCodeSchool/TSSR-2503-P3-G1-BuildYourInfra-BillU)
-- [Hack De Mots De Passe](https://github.com/WildCodeSchool/TSSR-2503-P1-G4-HackDeMotsDePasse)
+- [The Scripting Project](https://github.com/infraBootGB/The_Scripting_Project_projet_2_wcs)
+- [Build Your Infra](https://github.com/infraBootGB/Build_Your_Infra_Projet_3_wcs)
+- [Hack De Mots De Passe](https://github.com/infraBootGB/Hack_De_Mots_De_Passe_Projet_1_wcs)
 
 
